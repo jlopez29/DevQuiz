@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_700">
+
+    <include
+        android:id="@+id/layout_header"
+        layout = "@layout/frag_quiz_header"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <include
+        android:id="@+id/layout_question"
+        layout = "@layout/frag_quiz_question"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:layout_constraintVertical_weight=".3"
+        app:layout_constraintTop_toBottomOf="@id/layout_header"
+        app:layout_constraintBottom_toTopOf="@id/layout_answers"
+        />
+    <include
+        android:id="@+id/layout_answers"
+        layout = "@layout/frag_quiz_answers"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:layout_constraintVertical_weight=".7"
+        app:layout_constraintTop_toBottomOf="@id/layout_question"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

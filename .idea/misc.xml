@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/card_topic_selector.xml" value="0.33106884057971014" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_menu_main.xml" value="0.18" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_quiz_answer.xml" value="0.3867753623188406" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_quiz_answers.xml" value="0.33" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_quiz_end.xml" value="0.22" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_quiz_header.xml" value="0.3867753623188406" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_quiz_question.xml" value="0.3867753623188406" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_quiz_screen.xml" value="0.22" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/layout/frag_topic_selection.xml" value="0.2140625" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/JLOPEZ/AndroidStudioProjects/DevQuiz/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18796296296296297" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

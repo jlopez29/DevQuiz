@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_game_over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/png_game_over"
+        android:layout_margin="@dimen/default_margin"
+        android:paddingTop="@dimen/default_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/cv_game_score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_game_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        app:cardBackgroundColor="@color/teal_900"
+        app:layout_constraintTop_toBottomOf="@id/iv_game_over"
+        app:layout_constraintBottom_toTopOf="@id/ll_game_status_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_game_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin"
+            android:text="Score: "
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_gravity="center"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to main menu"
+        android:layout_marginStart="@dimen/large_margin"
+        android:layout_marginEnd="@dimen/large_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:backgroundTint="@color/teal_400"
+        app:cornerRadius="9dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/ll_game_status_btn"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_game_status_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        app:layout_constraintTop_toBottomOf="@id/cv_game_score"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="bottom">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_quiz_restart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green_400"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="5"
+                app:cornerRadius="9dp"
+                android:text="Restart"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_quiz_end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/red_400"
+                android:layout_marginStart="6dp"
+                android:layout_weight="5"
+                app:cornerRadius="9dp"
+                android:text="End"
+                android:textColor="@color/white"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
